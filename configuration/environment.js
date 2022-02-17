@@ -29,9 +29,9 @@ module.exports = {
     fonts: 8192,
   },
   
-  site_name: "Crator Studio",
+  site_name: "WEB 3.1",
   
-  site_description: "Crator is a sleek, dark, and creative agency & portfolio theme ideal for presenting your services, portfolio, and details in a creative way.",
+  site_description: "Developing blockchain solutions and Web 3.0 services. We design, build and promote great web3 products. We drive all aspects of SMM strategies by setting up disruptive techniques through outstanding content production, effective community management, paid social advertising, influencer marketing, and more.",
   
   // Source file for favicon generation.
   favicon: path.join(ROOT, '/src/images/favicon.png'),
