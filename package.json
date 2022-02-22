@@ -51,7 +51,7 @@
     "lint:sass": "sass-lint -v -q",
     "lint:js": "eslint --ext .js src/js/",
     "stats": "cross-env NODE_ENV=production webpack --config configuration/webpack.prod.config.js --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json",
-    "deploy": "npm run production && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run production && git subtree split --prefix dist -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages"
   },
   "target": "web",
   "dependencies": {
